@@ -1,0 +1,72 @@
+/* Navbar==================== */
+.customNav {
+    position: sticky;
+    width: 100%;
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+}
+.navbar-brand {
+    padding-left: 15px !important;
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .nav-item {
+    margin: 0px 10px;
+  }
+  .customNav a {
+    color: white !important;
+  }
+
+  /* Jumbotron================= */
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.5)), url(../images/Mihail\ Dvoeglazov\ -\ Ice.jpeg);
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 90vh;
+}    
+.heroTitle {
+    min-height: 250px;
+}
+.heroCopy {
+    min-height: 100px;
+}
+.navbar-dark .navbar-toggler .navbar-toggler-icon .navbar-brand {
+    color: rgba(255,255,255,1) !important;
+}
+
+/* Cards ==================== */
+.cardBox {
+    padding: 50px;
+    margin: 0px 100px 0px 100px;
+}
+.cardContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn {
+    display: flex;
+    justify-content: center !important;
+    max-width: 200px;
+    vertical-align: middle;
+}
+
+/* Newsletter ==================== */
+.news {
+    padding: 50px;
+    background-color: rgb(35, 41, 53)
+}
+.newsContainer {
+    padding: 30px;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    margin: 100px 0px 100px 0px
+}
+
+/* Footer ==================== */
+.footer {
+    background-color: steelblue !important;
+}
